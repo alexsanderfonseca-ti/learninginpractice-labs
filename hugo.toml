@@ -1,0 +1,39 @@
+baseURL = "https://learninpractice.com/"
+title = "Learning in Practice Labs"
+theme = "PaperMod"
+
+languageCode = "pt-br"
+defaultContentLanguage = "pt"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 12
+
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[params]
+  description = "Reprodução de laboratórios técnicos. Windows Server, Linux, Cloud e infraestrutura real."
+  author = "Alexsander da Fonseca"
+
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowRssButtonInSectionTermList = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
